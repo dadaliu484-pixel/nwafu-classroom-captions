@@ -1,0 +1,17 @@
+/.venv/
+/outputs/
+/captured_data/
+/playwright-browsers/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.pem
+*.key
+*.har
+*.log
+captions_*.txt
+*_captions*.txt
+page_text_dump*.txt
+.DS_Store
+Thumbs.db
