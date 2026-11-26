@@ -1,12 +1,14 @@
 # 西农云课堂字幕导出
 
+[**下载 ZIP**](https://github.com/dadaliu484-pixel/nwafu-classroom-captions/releases/latest/download/nwafu-classroom-captions.zip) · [版本说明](https://github.com/dadaliu484-pixel/nwafu-classroom-captions/releases/latest)
+
 把西农云课堂回放里的「转写」保存为带时间戳的 UTF-8 文本。每次保存当前回放，适合课后查找课堂内容。
 
 导出课堂转写需要能正常登录西农云课堂并查看对应回放。试用示例和转换本地字幕只需 Python。
 
 ## Windows 快速开始
 
-1. 在 GitHub 点击 **Code → Download ZIP**，解压到可写目录。
+1. 点击上方的 **下载 ZIP**，解压到可写目录。
 2. 安装 [Python 3.10 或更新版本](https://www.python.org/downloads/windows/)，安装时勾选 **Add python.exe to PATH**。已安装可跳过。
 3. 双击 **start.cmd**。首次启动会安装项目依赖并下载 Chromium。
 4. 在弹出的浏览器里登录西农云课堂，进入 **课堂实录**，打开一节回放，等「转写」和总字数显示。
@@ -34,6 +36,8 @@ python parse_subtitles.py examples/demo.vtt
 ```
 
 如果系统使用 `python3` 命令，请用它替换 `python`。运行成功后可打开 `outputs/demo_captions.txt`。
+
+![离线示例运行截图，展示转换命令、保存提示和生成的两条带时间戳字幕](docs/run-example.png)
 
 ```text
 [00:00:02.000 --> 00:00:04.500] 这是一段虚构的字幕。
